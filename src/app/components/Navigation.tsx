@@ -13,7 +13,7 @@ export function Navigation() {
       className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border-b border-[#D4AF37]/20"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-14">
           {/* Logo with African accent */}
           <div className="flex-shrink-0 flex items-center gap-2">
             {/*<div className="w-10 h-10 bg-gradient-to-br from-[#D4AF37] to-[#A0522D] rounded-lg flex items-center justify-center rotate-45">

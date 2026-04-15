@@ -41,7 +41,7 @@ export function Hero() {
         className="absolute bottom-40 left-20 w-96 h-96 bg-gradient-to-br from-[#8B4513]/20 to-[#B8860B]/20 rounded-full blur-3xl"
       />
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32">
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32 lg:pt-22">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           {/* Left Content */}
           <motion.div
