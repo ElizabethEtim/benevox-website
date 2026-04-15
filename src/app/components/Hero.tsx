@@ -104,7 +104,7 @@ export function Hero() {
               >
                 <div className="flex items-center gap-2">
                   <Zap className="w-8 h-8 text-[#D4AF37]" />
-                  <div className="text-5xl text-[#030405]">2-3</div>
+                  <div className="text-4xl md:text-5xl text-[#030405]">2-3</div>
                 </div>
                 <div className="text-sm text-gray-600 mt-2 uppercase tracking-wide">Days to Deploy</div>
               </motion.div>
@@ -115,7 +115,7 @@ export function Hero() {
               >
                 <div className="flex items-center gap-2">
                   <TrendingUp className="w-8 h-8 text-[#A0522D]" />
-                  <div className="text-5xl text-[#030405]">40%</div>
+                  <div className="text-4xl md:text-5xl text-[#030405]">40%</div>
                 </div>
                 <div className="text-sm text-gray-600 mt-2 uppercase tracking-wide">Cost Savings</div>
               </motion.div>
@@ -126,7 +126,7 @@ export function Hero() {
               >
                 <div className="flex items-center gap-2">
                   <Globe className="w-8 h-8 text-[#8B4513]" />
-                  <div className="text-5xl text-[#030405] pr-1">100+</div>
+                  <div className="text-4xl md:text-5xl text-[#030405] pr-1">100+</div>
                 </div>
                 <div className="text-sm text-gray-600 mt-2 uppercase tracking-wide">Projects Delivered</div>
               </motion.div>
