@@ -50,7 +50,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="relative py-32 bg-gradient-to-b from-white to-[#FFF8E7] overflow-hidden">
+    <section id="services" className="relative py-24 pb-12 bg-gradient-to-b from-white to-[#FFF8E7] overflow-hidden">
       {/* Decorative background elements */}
       <div className="absolute top-20 left-10 w-64 h-64 bg-[#F4A900]/10 rounded-full blur-3xl" />
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-[#CC5500]/10 rounded-full blur-3xl" />
@@ -64,7 +64,7 @@ export function Services() {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mb-24"
         >
-          <div className="flex items-center gap-3 mb-6">
+          <div className="flex items-center gap-3 mb-16">
             <div className="w-12 h-1 bg-gradient-to-r from-[#F4A900] to-[#CC5500]" />
             <span className="text-[#CC5500] uppercase tracking-wider">What We Offer</span>
           </div>

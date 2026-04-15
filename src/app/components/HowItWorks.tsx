@@ -38,7 +38,7 @@ const steps = [
 
 export function HowItWorks() {
   return (
-    <section id="how-it-works" className="relative py-32 bg-gradient-to-b from-[#FFF8E7] to-white overflow-hidden">
+    <section id="how-it-works" className="relative py-24 bg-gradient-to-b from-[#FFF8E7] to-white overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-[#D4AF37]/10 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-[#8B4513]/10 rounded-full blur-3xl" />
@@ -52,7 +52,7 @@ export function HowItWorks() {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mb-24"
         >
-          <div className="flex items-center gap-3 mb-6">
+          <div className="flex items-center gap-3 mb-16">
             <div className="w-12 h-1 bg-gradient-to-r from-[#D4AF37] to-[#A0522D]" />
             <span className="text-[#A0522D] uppercase tracking-wider">Our Process</span>
           </div>

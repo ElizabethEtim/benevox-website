@@ -126,7 +126,7 @@ export function Hero() {
               >
                 <div className="flex items-center gap-2">
                   <Globe className="w-8 h-8 text-[#8B4513]" />
-                  <div className="text-5xl text-[#030405]">100+</div>
+                  <div className="text-5xl text-[#030405] pr-1">100+</div>
                 </div>
                 <div className="text-sm text-gray-600 mt-2 uppercase tracking-wide">Projects Delivered</div>
               </motion.div>

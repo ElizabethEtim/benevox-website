@@ -13,7 +13,7 @@ export function Navigation() {
       className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-xl border-b border-[#D4AF37]/20"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="flex items-center justify-between h-18">
+          <div className="flex items-center justify-between h-20">
           {/* Logo with African accent */}
           <div className="flex-shrink-0 flex items-center gap-2">
             {/*<div className="w-10 h-10 bg-gradient-to-br from-[#D4AF37] to-[#A0522D] rounded-lg flex items-center justify-center rotate-45">
@@ -57,13 +57,13 @@ export function Navigation() {
             className="md:hidden py-8 border-t border-[#D4AF37]/20"
           >
             <div className="flex flex-col gap-6">
-              <a href="#services" className="text-[#028338] font-medium hover:text-[#A0522D] py-2 text-lg">
+              <a href="#services" className="text-[#030405] font-medium hover:text-[#A0522D] py-2 text-lg">
                 Services
               </a>
-              <a href="#how-it-works" className="text-[#028338] font-medium hover:text-[#A0522D] py-2 text-lg">
+              <a href="#how-it-works" className="text-[#030405] font-medium hover:text-[#A0522D] py-2 text-lg">
                 How It Works
               </a>
-              <a href="#results" className="text-[#028338] font-medium hover:text-[#A0522D] py-2 text-lg">
+              <a href="#results" className="text-[#030405] font-medium hover:text-[#A0522D] py-2 text-lg">
                 Results
               </a>
               <button className="mt-4 px-8 py-3 bg-gradient-to-r from-[#D4AF37] to-[#A0522D] text-white rounded-full hover:shadow-2xl transition-all">
