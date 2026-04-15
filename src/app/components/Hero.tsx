@@ -112,7 +112,7 @@ export function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.7 }}
-              >
+              ><br className="md:hidden" />
                 <div className="flex items-center gap-2">
                   <TrendingUp className="w-8 h-8 text-[#A0522D]" />
                   <div className="text-5xl text-[#030405]">40%</div>
@@ -123,7 +123,7 @@ export function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
-              >
+              ><br className="md:hidden" />
                 <div className="flex items-center gap-2">
                   <Globe className="w-8 h-8 text-[#8B4513]" />
                   <div className="text-5xl text-[#030405] pr-1">100+</div>
